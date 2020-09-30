@@ -55,7 +55,7 @@ header {
 
 
 /*style main---------------------------------*/
-#home, footer {
+main, footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -111,7 +111,6 @@ h2 {
 #tribute-info, #movies, .poster, #row, #info {
 	display: flex;
 	flex-direction: row;
-	
 }
 
 #tribute-info, #movies {
@@ -119,6 +118,7 @@ h2 {
 	align-items: center;
 	padding: 0 90px 40px 90px;
 }
+
 
 #tribute-info img {
 	width: 200px;
@@ -139,7 +139,8 @@ h2 {
 #movies-left, #movies-right, .award {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+    align-items: center;
+    
 }	
 
 #movies-left, #movies-right {
@@ -174,7 +175,7 @@ h2 {
 /* style awards section ----------------------------*/
 
 #row {
-	justify-content: space-around;
+    justify-content: space-around;
 	margin: 20px 60px;
 	padding-bottom: 40px;
 }
@@ -200,7 +201,7 @@ h2 {
 /* style info section -----------------------------*/
 
 #info {
-	padding: 12px 0;
+    padding: 12px 0;
 }
 
 .logo {
@@ -220,7 +221,9 @@ footer {
 	
 	/* style navigation bar for small devices -----*/
 	.openbtn {
-		display: block;
+        display: block;
+        font-size: 22px;
+        color: #fff;
 	}
 
 	.overlay {
@@ -250,10 +253,6 @@ footer {
 		color: #d8d4d4;
 		display: block;
 		transition: 0.3s;
-	}
-
-	.overlay a:hover, .overlay a:focus {
-		color: #f1f1f1;
 	}
 
 	.overlay .closebtn {
@@ -287,7 +286,7 @@ footer {
 		padding: 40px 0px;
 	}
 
-	#tribute-info, #movies, #row, #tribute-info p,
+	#tribute-info, #tribute-info p, #movies, 
 	#movies-left, #movies-right {
 		width: 360px;
 	}
@@ -298,21 +297,20 @@ footer {
 	}	
 
 	.poster {
+        width: 330px;
 		padding: 10px;
 		margin: 25px 10px;
-		width: 330px;
+		
 	}
 
 	#row {
-		margin: 0 0 40px 0;
+        margin: 0;
 	}
 	
 	.award {
 		width: 330px;
 		padding: 35px;
-		margin: 25px 0px;	
+		margin: 25px 10px;	
 	}
 
 }
-
-
