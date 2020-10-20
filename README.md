@@ -31,7 +31,7 @@ the subject of the tribute page. HINT: You must give your element an attribute o
 
 Also you can find the working demo in [codepen](https://codepen.io/GuaciG/pen/jgxWay)
 
-Feedback issues etc. are more than welcome!
+Feedback issues etc. are more than welcome! Thanks!
 
 
 
