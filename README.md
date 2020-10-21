@@ -29,7 +29,11 @@ the subject of the tribute page. HINT: You must give your element an attribute o
 - [x] **User Story #9:** The img element should be centered within its parent element.
 
 
-Also you can find the working demo in [codepen](https://codepen.io/GuaciG/pen/jgxWay)
+
+
+You can take a look at this project in [github](https://guacig.github.io/tribute-page/)
+
+Also you can find the working demo in [codepen](https://codepen.io/GuaciG/full/jgxWay)
 
 Feedback issues etc. are more than welcome! Thanks!
 
