@@ -213,6 +213,16 @@ h2 {
 footer {
 	background-color: #3d5c5c;
 	color: #ffffff;
+	font-size: 14px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+  
+footer a:hover {
+	color: #c7c406;
 }
 
 /* media queries for devices with small screens-----------*/
