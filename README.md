@@ -3,7 +3,7 @@
 This project was built as a challenge on freecodecamp course. It was part of Responsive Web Design Certification in FreeCodeCamp.
 Create a tribute website to someone you admire.  
 
-![Tribute Page](https://res.cloudinary.com/drpcjt13x/image/upload/v1566308614/Proyectos/Personal%20Portfolio%20Webpage/TributePage_nrqusa.jpg "Tribute Page project")
+![Tribute Page](https://res.cloudinary.com/drpcjt13x/image/upload/v1603989078/Proyectos/Personal%20Portfolio%20Webpage/Tribute_Page_-_Cate_Blanchett_tale6g.png "Tribute Page project")
 
 ## User story
 
