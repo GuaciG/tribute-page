@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Tribute Page - Cate Blanchett</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="tributestyles.css">
 	<link href="https://fonts.googleapis.com/css?family=Exo|Kaushan+Script&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
 	<script src="https://kit.fontawesome.com/2e918371a2.js"></script>
@@ -17,37 +17,37 @@
 		<nav id="myNav" class="overlay">	
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<div class="overlay-content">
-				<a href="#home">Home</a>
-    			<a href="#biography">Biography</a>
-    			<a href="#filmography">Filmography</a>
-    			<a href="#awards">Awards</a>
-				<a href="#info">More Info</a>
+				<a href="#home" onclick="closeNav()">Home</a>
+    		<a href="#biography" onclick="closeNav()">Biography</a>
+    		<a href="#filmography" onclick="closeNav()">Filmography</a>
+    		<a href="#awards" onclick="closeNav()">Awards</a>
+				<a href="#info" onclick="closeNav()">More Info</a>
 			</div>	
 		</nav>		
 	</header>
 <!-- main information -->
 	<main id="home">
 <!-- Hero image -->
-		<section id="img-div">
-			<img id="image" src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401137/Proyectos/Cate%20Blanchett/DdJ7dNvW4AAXmLxlarge_akolzh.jpg" alt="Cate Blanchett">
-            <div class="text">
-            	<h1 id="title">Cate Blanchett</h1>
-            	<p id="img-caption">Chameleon actress of the thousand faces.</p>
-            </div>
-        </section>
+		<section class="img-div">
+			<img class="hero-image" src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401137/Proyectos/Cate%20Blanchett/DdJ7dNvW4AAXmLxlarge_akolzh.jpg" alt="Cate Blanchett">
+      <div class="text">
+				<h1 class="title">Cate Blanchett</h1>
+				<p class="img-caption">Chameleon actress of the thousand faces.</p>
+			</div>
+    </section>
 <!-- Biography information -->
-        <section id="biography">					
-				<h2>Biography</h2>
-				<div id="tribute-info">
-					<img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401571/Proyectos/Cate%20Blanchett/cate-blanchett-bio-ok_bwbeju.jpg" alt="Cate Blanchett image">
-					<p>Cate Blanchett was born on May 14, 1969 in Melbourne, Australia. When her 40-year-old father died of a sudden heart attack, she took the option of traveling for a year to find his way.<br>This one came in the strangest way. She was staying in a cheap hotel in Cairo. There another guest offered to participate as an extra in a movie that was going to be filmed those days. She did not doubt it. After this first step in the world of celluloid, Cate Blanchett decided to prepare in the exciting art of interpreting. Cate graduated from Australia's National Institute of Dramatic Art in 1992 and, in a little over a year, had won both critical and popular acclaim. <a id="tribute-link" href="https://en.wikipedia.org/wiki/Cate_Blanchett" title="Cate Blanchett Biography" target="_blank">More about Cate Blanchett Biography...</a></p>
-				</div>
+		<section id="biography">					
+			<h2>Biography</h2>
+			<div class="tribute-info">
+				<img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401571/Proyectos/Cate%20Blanchett/cate-blanchett-bio-ok_bwbeju.jpg" alt="Cate Blanchett image">
+				<p>Cate Blanchett was born on May 14, 1969 in Melbourne, Australia. When her 40-year-old father died of a sudden heart attack, she took the option of traveling for a year to find his way.<br>This one came in the strangest way. She was staying in a cheap hotel in Cairo. There another guest offered to participate as an extra in a movie that was going to be filmed those days. She did not doubt it. After this first step in the world of celluloid, Cate Blanchett decided to prepare in the exciting art of interpreting. Cate graduated from Australia's National Institute of Dramatic Art in 1992 and, in a little over a year, had won both critical and popular acclaim. <a id="tribute-link" href="https://en.wikipedia.org/wiki/Cate_Blanchett" title="Cate Blanchett Biography" target="_blank">More about Cate Blanchett Biography...</a></p>
+			</div>
 		</section>
 <!-- Filmography information -->
-        <section id="filmography">
-        	<h2>Most outstanding movies</h2>
-        	<div id="movies">				
-				<div id="movies-left">
+		<section id="filmography">
+			<h2>Most outstanding movies</h2>
+			<div class="movies">				
+				<div class="movies-left">
 					<div class="poster">					
 						<img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401572/Proyectos/Cate%20Blanchett/Truth_grande_lzac9n.jpg" alt="Truth" >
 						<ul>
@@ -94,7 +94,7 @@
 						</ul>
 					</div>
 				</div>
-				<div id="movies-right">
+				<div class="movies-right">
 					<div class="poster">
 						<img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401571/Proyectos/Cate%20Blanchett/carol3_fhupy2.png" alt="Carol">
 						<ul>
@@ -142,45 +142,44 @@
 					</div>
 				</div>				
 			</div>
-        </section>
+		</section>
 <!-- Awards information -->
 		<section id="awards">
 			<h2>Awards</h2>	
-				<div id="row">
-					<div class="award">
-						<img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401572/Proyectos/Cate%20Blanchett/oscars-small_a9nl81.jpg" alt="Oscar Awards">
-						<div class="award-text">
-							<p>(2013) Blue Jasmine - Best Actress</p>
-							<p>(2004) The Aviator - Best Supporting Actress</p>
-						</div>
+			<div class="row">
+				<div class="award-card">
+					<img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401572/Proyectos/Cate%20Blanchett/oscars-small_a9nl81.jpg" alt="Oscar Awards">
+					<div class="award-text">
+						<p>(2013) Blue Jasmine - Best Actress</p>
+						<p>(2004) The Aviator - Best Supporting Actress</p>
 					</div>
-					<div class="award">
-						<img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401572/Proyectos/Cate%20Blanchett/GlodenGlobe-small_pwrclp.jpg" alt="Golden Globe Awards">
-						<div class="award-text">
-							<p>(2013) Blue Jasmine - Best Actress. Drama
-							</p>
-							<p>(2007) I'm Not There - Best Supporting Actress</p>
-							<p>(1998) Elizabeth - Best Supporting Actress. Drama</p>
-						</div>
+				</div>
+				<div class="award-card">
+					<img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401572/Proyectos/Cate%20Blanchett/GlodenGlobe-small_pwrclp.jpg" alt="Golden Globe Awards">
+					<div class="award-text">
+						<p>(2013) Blue Jasmine - Best Actress. Drama
+						</p>
+						<p>(2007) I'm Not There - Best Supporting Actress</p>
+						<p>(1998) Elizabeth - Best Supporting Actress. Drama</p>
 					</div>
-					<div class="award">
-						<img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401571/Proyectos/Cate%20Blanchett/6606-bafta-award-small_vsv2mf.jpg" alt="BAFTA">
-						<div class="award-text">
-							<p>(2013) Blue Jasmine - Best Actress</p>
-							<p>(2004) The Aviator - Best Supporting Actress</p>
-							<p>(1998) Elizabeth - Best Actress</p>
-						</div>
+				</div>
+				<div class="award-card">
+					<img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401571/Proyectos/Cate%20Blanchett/6606-bafta-award-small_vsv2mf.jpg" alt="BAFTA">
+					<div class="award-text">
+						<p>(2013) Blue Jasmine - Best Actress</p>
+						<p>(2004) The Aviator - Best Supporting Actress</p>
+						<p>(1998) Elizabeth - Best Actress</p>
 					</div>
-					<div class="award">
-						<img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401572/Proyectos/Cate%20Blanchett/official_sag_logo_small_seurt3.jpg" alt="Screen Actors Guild Awards">
-						<div class="award-text">
-							<p>(2013) Blue Jasmine - Best Actress</p>
-							<p>(2004) The Aviator - Best Supporting Actress</p>
-							<p>(2003) The Lord of the Rings: The Return of the King - Outstanding Performance</p>
-						</div>
+				</div>
+				<div class="award-card">
+					<img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401572/Proyectos/Cate%20Blanchett/official_sag_logo_small_seurt3.jpg" alt="Screen Actors Guild Awards">
+					<div class="award-text">
+						<p>(2013) Blue Jasmine - Best Actress</p>
+						<p>(2004) The Aviator - Best Supporting Actress</p>
+						<p>(2003) The Lord of the Rings: The Return of the King - Outstanding Performance</p>
 					</div>
-				</div>				
-			</div>
+				</div>
+			</div>						
 		</section>
 <!-- More information in external links -->
 		<section id="info">
@@ -200,7 +199,7 @@
 	</main>
 <!-- Footer  -->	
 	<footer>
-		<p>&copy; 2019 Guaci Gutiérrez &bull; <a href="https://guacig.github.io/" target="_blank">Portfolio</a></p>	
+		<p>&copy; 2019 Guaci Gutiérrez &bull; <a href="https://guacig.github.io/" target="_blank">Portfolio</a></p>
 	</footer>
 
 	<script>
