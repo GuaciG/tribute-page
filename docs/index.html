@@ -13,9 +13,16 @@
 <!--Beginning of the visual content of the document --> 	
 <!-- here the navigation bar -->
 	<header>
+		<nav class="navigation">
+			<a href="#home" class="links">Home</a>
+    	<a href="#biography" class="links">Biography</a>
+    	<a href="#filmography" class="links">Filmography</a>
+    	<a href="#awards" class="links">Awards</a>
+			<a href="#info" class="links">More Info</a>
+		</nav>
 		<span class="openbtn" onclick="openNav()">&#9776; </span>
 		<nav id="myNav" class="overlay">	
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="javascript:;" class="closebtn" onclick="closeNav()">&times;</a>
 			<div class="overlay-content">
 				<a href="#home" onclick="closeNav()">Home</a>
     		<a href="#biography" onclick="closeNav()">Biography</a>
@@ -210,6 +217,7 @@
 		function closeNav() {
 		  document.getElementById("myNav").style.width = "0%";
 		}
+
 	</script>
 
 </body>

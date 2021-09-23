@@ -19,23 +19,14 @@ header {
   background-color: #669999;
 }
 
-.overlay-content {
-  width: 100%;
+.navigation {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
-.openbtn,
-.closebtn {
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.overlay-content a {
-  display: inline-block;
+.navigation a {
   text-decoration: none;
   font-family: "Kaushan Script", cursive;
   color: #fff;
@@ -44,14 +35,17 @@ header {
   font-weight: bold;
 }
 
-.overlay-content a:hover {
+.navigation a:hover {
   color: #444444;
   background-color: #fff;
 }
 
+.overlay-content {
+  display: none;
+}
+
 .openbtn {
   display: none;
-  float: right;
 }
 
 .closebtn {
@@ -337,10 +331,9 @@ footer a:hover {
 
 @media screen and (max-width: 500px) {
   /* style navigation bar for small devices -----*/
-  .openbtn {
-    display: block;
-    font-size: 22px;
-    color: #fff;
+
+  .navigation {
+    display: none;
   }
 
   .overlay {
@@ -357,28 +350,41 @@ footer a:hover {
 
   .overlay-content {
     position: relative;
-    flex-direction: column;
-    align-items: flex-start;
     top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     width: 100%;
     margin-top: 10px;
     padding-left: 40px;
   }
 
-  .overlay a {
-    padding: 8px;
+  .overlay-content a,
+  .closebtn {
     text-decoration: none;
-    font-size: 36px;
+    font-family: "Kaushan Script", cursive;
     color: #d8d4d4;
-    display: block;
-    transition: 0.3s;
+    padding: 10px 20px;
+    font-size: 36px;
+    font-weight: bold;
   }
 
-  .overlay .closebtn {
+  .closebtn {
+    display: block;
     position: absolute;
     top: 0px;
     right: 20px;
     font-size: 60px;
+  }
+
+  .openbtn {
+    display: block;
+    float: right;
+    font-size: 22px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
   }
 
   /* improve hero image position ------------------*/
