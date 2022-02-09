@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Tribute Page - Cate Blanchett</title>
-	<link rel="stylesheet" type="text/css" href="tributestyles.css">
-	<link href="https://fonts.googleapis.com/css?family=Exo|Kaushan+Script&display=swap" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo%7CKaushan+Script&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://kit.fontawesome.com/2e918371a2.js"></script>
 </head>
 <body>
 <!--Beginning of the visual content of the document --> 	
 <!-- here the navigation bar -->
-<header>
-	<nav class="navigation">
-		<a href="#home" class="links">Home</a>
-		<a href="#biography" class="links">Biography</a>
-		<a href="#filmography" class="links">Filmography</a>
-		<a href="#awards" class="links">Awards</a>
-		<a href="#info" class="links">More Info</a>
-	</nav>
-	<span class="openbtn" onclick="openNav()">&#9776; </span>
-	<nav id="myNav" class="overlay">	
-		<a href="javascript:;" class="closebtn" onclick="closeNav()">&times;</a>
-		<div class="overlay-content">
-			<a href="#home" onclick="closeNav()">Home</a>
-			<a href="#biography" onclick="closeNav()">Biography</a>
-			<a href="#filmography" onclick="closeNav()">Filmography</a>
-			<a href="#awards" onclick="closeNav()">Awards</a>
-			<a href="#info" onclick="closeNav()">More Info</a>
-		</div>	
-	</nav>		
-</header>
+	<header>
+		<nav class="navigation">
+			<a href="#home" class="links">Home</a>
+    	<a href="#biography" class="links">Biography</a>
+    	<a href="#filmography" class="links">Filmography</a>
+    	<a href="#awards" class="links">Awards</a>
+			<a href="#info" class="links">More Info</a>
+		</nav>
+		<span class="openbtn" onclick="openNav()">&#9776; </span>
+		<nav id="myNav" class="overlay">	
+			<a href="javascript:;" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
+				<a href="#home" onclick="closeNav()">Home</a>
+    		<a href="#biography" onclick="closeNav()">Biography</a>
+    		<a href="#filmography" onclick="closeNav()">Filmography</a>
+    		<a href="#awards" onclick="closeNav()">Awards</a>
+				<a href="#info" onclick="closeNav()">More Info</a>
+			</div>	
+		</nav>		
+	</header>
 <!-- main information -->
 	<main id="home">
 <!-- Hero image -->
@@ -47,7 +47,7 @@
 			<h2>Biography</h2>
 			<div class="tribute-info">
 				<img src="https://res.cloudinary.com/drpcjt13x/image/upload/v1592401571/Proyectos/Cate%20Blanchett/cate-blanchett-bio-ok_bwbeju.jpg" alt="Cate Blanchett image">
-				<p>Cate Blanchett was born on May 14, 1969 in Melbourne, Australia. When her 40-year-old father died of a sudden heart attack, she took the option of traveling for a year to find his way.<br>This one came in the strangest way. She was staying in a cheap hotel in Cairo. There another guest offered to participate as an extra in a movie that was going to be filmed those days. She did not doubt it. After this first step in the world of celluloid, Cate Blanchett decided to prepare in the exciting art of interpreting. Cate graduated from Australia's National Institute of Dramatic Art in 1992 and, in a little over a year, had won both critical and popular acclaim. <a id="tribute-link" href="https://en.wikipedia.org/wiki/Cate_Blanchett" title="Cate Blanchett Biography" target="_blank">More about Cate Blanchett Biography...</a></p>
+				<p>Cate Blanchett was born on May 14, 1969 in Melbourne, Australia. When her 40-year-old father died of a sudden heart attack, she took the option of traveling for a year to find his way.<br>This one came in the strangest way. She was staying in a cheap hotel in Cairo. There another guest offered to participate as an extra in a movie that was going to be filmed those days. She did not doubt it. After this first step in the world of celluloid, Cate Blanchett decided to prepare in the exciting art of interpreting. Cate graduated from Australia's National Institute of Dramatic Art in 1992 and, in a little over a year, had won both critical and popular acclaim. <a id="tribute-img" href="https://en.wikipedia.org/wiki/Cate_Blanchett" title="Cate Blanchett Biography" target="_blank">More about Cate Blanchett Biography...</a></p>
 			</div>
 		</section>
 <!-- Filmography information -->
@@ -190,18 +190,21 @@
 		</section>
 <!-- More information in external links -->
 		<section id="info">
-			<div class="logo">
-				<a id="tribute-link" href="https://en.wikipedia.org/wiki/Cate_Blanchett" title="Cate Blanchett Biography" target="_blank"><img src="https://img.icons8.com/windows/40/000000/wikipedia.png"></a>
+			<h2>More information</h2>
+			<div class="content-logos">
+				<div class="logo">
+					<a id="tribute-link" href="https://en.wikipedia.org/wiki/Cate_Blanchett" title="Cate Blanchett Biography" target="_blank"><img src="https://img.icons8.com/windows/40/000000/wikipedia.png" alt="wikipedia logo"></a>
+				</div>
+				<div class="logo">
+					<a href="https://www.instagram.com/cate_blanchettofficial/?hl=en" title="Cate Blanchett Instagram" target="_blank"><img src="https://img.icons8.com/nolan/40/000000/instagram-new.png" alt="instagram logo"></a>
+				</div>
+				<div class="logo">
+					<a href="https://www.imdb.com/name/nm0000949/" title="Cate Blanchett IMDb"><img src="https://img.icons8.com/color/40/000000/imdb.png" alt="imdb logo"></a>
+				</div>
+				<div class="logo">
+					<a href="https://www.youtube.com/watch?v=ikDVbx32Wks" title="Cate Blanchett YouTube"><i class="fab fa-youtube" style='font-size:38px; color: red'></i></a>
+				</div>	
 			</div>
-			<div class="logo">
-				<a href="https://www.instagram.com/cate_blanchettofficial/?hl=en" title="Cate Blanchett Instagram" target="_blank"><img src="https://img.icons8.com/nolan/40/000000/instagram-new.png"></i></a>
-			</div>
-			<div class="logo">
-				<a href="https://www.imdb.com/name/nm0000949/" title="Cate Blanchett IMDb"><img src="https://img.icons8.com/color/40/000000/imdb.png"></a>
-			</div>
-			<div class="logo">
-				<a href="https://www.youtube.com/watch?v=ikDVbx32Wks" title="Cate Blanchett YouTube"><i class="fab fa-youtube" style='font-size:38px; color: red'></i></a>
-			</div>	
 		</section>
 	</main>
 <!-- Footer  -->	
@@ -217,6 +220,7 @@
 		function closeNav() {
 		  document.getElementById("myNav").style.width = "0%";
 		}
+
 	</script>
 
 </body>

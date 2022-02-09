@@ -234,8 +234,14 @@ h2 {
 
 #info {
   display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+}
+
+.content-logos {
+  display: flex;
   flex-direction: row;
-  padding: 12px 0;
+  padding: 20px 0;
 }
 
 .logo {
